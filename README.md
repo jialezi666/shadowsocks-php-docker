@@ -29,3 +29,10 @@ docker run -d -p 22:22 -p 80:80 -p 443:443 -e m=kmm996 -e p 443 -e n=30 kmm996/s
 ```
 docker run  -d -p 22:22 -p 80:80 -p 443:443 -v /root/html:/usr/share/nginx/html kmm996/shadowsocks-php
 ```
+## ssh
+
+镜像启用ssh服务，
+
+默认22端口
+
+账户：root，密码：root
