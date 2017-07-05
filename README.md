@@ -2,7 +2,11 @@
 
 来自 https://github.com/walkor/shadowsocks-php 的php版shadowsocks
 
-默认环境变量
+
+## 默认镜像带有nginx-php5-ssh
+另有纯净版：kmm996/shadowsocks-php:tiny
+
+### 默认环境变量
 
 ```
 ENV s=127.0.0.1 （服务器地址）
@@ -18,7 +22,7 @@ docker run -d -p 22:22 -p 80:80 -p 443:443 kmm996/shadowsocks-php
 
 docker run -d -p 22:22 -p 80:80 -p 443:443 -e m=kmm996 -e p 443 -e n=30 kmm996/shadowsocks-php
 ```
-## nginx && php5.5
+### nginx && php5.5
 
 镜像附带nginx和php5.5
 
@@ -29,7 +33,7 @@ docker run -d -p 22:22 -p 80:80 -p 443:443 -e m=kmm996 -e p 443 -e n=30 kmm996/s
 ```
 docker run  -d -p 22:22 -p 80:80 -p 443:443 -v /root/html:/usr/share/nginx/html kmm996/shadowsocks-php
 ```
-## ssh
+### ssh
 
 镜像启用ssh服务，
 
