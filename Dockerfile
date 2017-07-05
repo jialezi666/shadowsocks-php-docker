@@ -42,8 +42,7 @@ ENV c=1080
 ENV n=50
 
 WORKDIR /root/
-RUN chmod +x /root/run1.sh
-  chmod +x /root/run2.sh  
+RUN chmod +x /root/run.sh
 
 EXPOSE 22 80 443
 CMD ["/root/run.sh"]
