@@ -2,8 +2,7 @@
 
 来自 https://github.com/walkor/shadowsocks-php 的php版shadowsocks
 
-
-## 默认镜像带有nginx-php5-ssh
+默认镜像kmm996/shadowsocks-php （带有nginx-php5-ssh）
 另有纯净版：kmm996/shadowsocks-php:tiny
 
 ### 默认环境变量
